@@ -1,0 +1,15 @@
+server:
+  port: 8787
+
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://fixel-api.co6jad5ex5nn.ap-northeast-2.rds.amazonaws.com:3306/y1?userUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul&allowMultiQueries=true
+    username: fixel_api
+    password: fixel1234!#
+
+mybatis:
+  type-aliases-package: com.example.mapper
+  mapper-locations: classpath*:com/example/resources/mappers/*.xml
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties>
+        <property name="idx" value="idx"/>
+        <property name="name" value="name"/>
+        <property name="content" value="content"/>
+    </properties>
+
+    <typeAliases>
+        <typeAlias type=""
+        <package name="com.example.vo.MemberVo" />
+    </typeAliases>
+</configuration>
